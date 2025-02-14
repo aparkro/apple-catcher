@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+  
+#game {
+  position: relative;
+  width: 70vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #87CEEB; /* Sky blue */
+  background-size: cover;
+}
+  
+#tree {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url('assets/tree.png');
+  background-size: cover;
+  top: 80px;
+  left: 350px;
+}
+  
+#bowl {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  background-image: url('assets/bowl.png');
+  background-size: cover;
+  bottom: 150px;
+  left: 350px;
+}
+  
+#score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: white;
+}
+  
+#game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  color: red;
+  display: none;
+}
+  
+.apple {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url('assets/apple.png');
+  background-size: cover;
+  border-radius: 50%;
+}
